@@ -5,7 +5,7 @@ window.SASUMON_TIERLIST = {
   "activeIndex": 1,
   "lists": [
     {
-      "title": "Meine Pokémon-Tierliste",
+      "title": "Doubles Tierlist",
       "language": "de",
       "entries": [
         {
