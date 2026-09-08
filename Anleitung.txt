@@ -1,0 +1,133 @@
+SASUMON TIERSTUDIO – DOWNLOAD-VERSION 5.3
+
+STARTEN – OHNE PYTHON ODER WEBSERVER
+1. ZIP vollständig in einen Ordner entpacken.
+2. Tierstudio.html doppelklicken. tierlist.js bleibt im selben Ordner.
+3. Für Katalog, Basiswerte und Sprites wird weiterhin Internet benötigt.
+
+DATEN LADEN UND SPEICHERN
+- tierlist.js wird über einen klassischen script-Tag geladen – auch lokal.
+- Enthält sie Listen, haben diese beim Start immer Vorrang vor Browser-Daten.
+- Die mitgelieferte tierlist.js enthält null, keine leere Liste. Damit bleibt
+  dein bisheriger Browser-Stand erhalten. Dasselbe gilt bei fehlender Datei.
+- Deine bisherige JSON kannst du über „Datei öffnen“ importieren.
+- „tierlist.js exportieren“ lädt ALLE Listen samt aktiver Auswahl herunter.
+  Lege den Download als exakt tierlist.js neben Tierstudio.html und ersetze
+  die alte Datei. Ein Name wie tierlist (1).js wird nicht automatisch geladen.
+- Der Browser überschreibt die Ordnerdatei nicht selbst. Bis du die Datei
+  ersetzt hast, enthält sie weiterhin den alten Stand!
+- „tierlist.js neu laden“ öffnet den gespeicherten Ordnerstand erneut.
+- JSON-Import und JSON-Sicherungen bleiben zusätzlich verfügbar.
+- Zum Teilen Tierstudio.html UND deine tierlist.js zusammen weitergeben.
+- Auf GitHub Pages beide Dateien in denselben Ordner hochladen. Änderungen
+  werden dort erst durch Ersetzen/Hochladen der tierlist.js für andere sichtbar.
+  Falls ein alter Stand angezeigt wird, mit Strg+F5 neu laden.
+
+NEU IN VERSION 5.3
+- Alle Sonderformen stehen einheitlich hinter dem Artennamen in Klammern,
+  in beiden Sprachen: Hisui, Galar, Alola, Paldea, Mega, Rotom-Formen,
+  Tiergeist/Therian, König/Crowned und weitere Formen.
+- Der Katalog wird einmal neu geladen, damit alte Namen ersetzt werden.
+
+NEU IN VERSION 5.2
+- Kein Python-Starter, keine Installation: direkt im Browser öffnen.
+- Konsistente Mega-Namen in Deutsch und Englisch: Name (Mega),
+  Name (Mega X) und Name (Mega Y). Auch bereits gecachte Namen werden korrigiert.
+
+WEITERHIN AUS VERSION 5.1
+- Im Katalog stehen die belegten Tiers, z. B. Banned · S, statt „1 Eintrag“.
+- „Basiswerte / BST anzeigen“ zeigt sechs Wertebalken und die Summe BST
+  in Karten und PNGs. Basiswerte sind Spezies-/Formwerte, ohne EVs/IVs.
+  Balkenskala je Wert: 0–255. Basiswerte werden für 7 Tage gecacht.
+
+NEU IN VERSION 5
+- „Tiers auswählen“ erlaubt beliebige Kombinationen per Checkbox.
+  Standardmäßig sind Banned, S, A, B und C angehakt, Untiert nicht.
+- Die Auswahl wird gemeinsam in EIN PNG exportiert, in der üblichen Tier-Reihenfolge.
+- Fehlende oder nicht ladbare Sprites werden beim Export ausgelassen.
+  Das Pokémon bleibt mit Name, Typen, Fähigkeit und Kommentar enthalten.
+  Auch wenn alle Sprites fehlen, wird das PNG erzeugt.
+
+NEU IN VERSION 4
+- Alle Pokémon/Formen ohne Eintrag in Banned, S, A, B oder C stehen automatisch
+  in Untiert. Auch eine eingeordnete Fähigkeits-Variante zählt als Einordnung
+  dieses Pokémon/dieser Form.
+- Untiert aktualisiert sich beim Einordnen, Entfernen, Leeren und Listenwechsel.
+- Untiert ist als einzelnes PNG exportierbar und im Gesamtexport enthalten.
+- Seine Farbe ist ebenfalls anpassbar. Untiert kann nicht dauerhaft geleert
+  werden: Es enthält automatisch die noch nicht eingeordneten Pokémon.
+- Im Tool werden zunächst 60 angezeigt; „Weitere“ zeigt mehr an. Im PNG werden
+  immer alle exportiert, unabhängig von der Anzeige im Tool.
+
+NEU IN VERSION 3
+- Tier-Namen stehen über den Pokémon, auch im PNG.
+- Über „Neue Tierliste“ beliebig weitere Listen anlegen und über die Auswahl
+  wechseln. Jede Liste hat eigene Farben, Einträge und Rückgängig-Schritte.
+- Über „Farbe“ am Tier das Hex-Code-Fenster öffnen, sechsstelligen Code wie
+  #FF8800 eingeben und speichern. Die Textfarbe passt sich automatisch an.
+- „Tier leeren“ entfernt nach Bestätigung alle Einträge des gewählten Tiers.
+  „Rückgängig“ stellt sie wieder her. Andere Tiers und Farben bleiben erhalten.
+- Das Sasumon-Logo ist direkt in der HTML-Datei eingebettet.
+- „Alle Listen sichern“ exportiert die gesamte Sammlung als JSON.
+  „Datei öffnen“ fügt importierte Listen hinzu, ohne bestehende zu ersetzen.
+
+STARTEN
+1. ZIP-Datei vollständig entpacken.
+2. Tierstudio.html per Doppelklick in einem aktuellen Desktop-Browser öffnen.
+   Geeignet sind beispielsweise Chrome, Edge oder Firefox.
+3. Der Pokémon-Katalog lädt über das Internet. Keine Installation, kein
+   Webserver und kein ChatGPT-Konto erforderlich.
+
+PNG EXPORTIEREN
+- Oben „Gesamte Tierliste“ oder Banned, S, A, B oder C auswählen.
+- „PNG exportieren“ anklicken.
+- Alternativ direkt am gewünschten Tier auf „PNG“ klicken.
+- Im Bild erscheinen ausschließlich Tier-Zeilen und ihre Einträge:
+  Sprites, gewählter Pokémon-Name, Typen, Fähigkeiten und Kommentare.
+  Katalog, Seitenkopf, Knöpfe, Webseitentitel und Fußzeile werden nicht exportiert.
+
+SPRACHE
+Deutsch oder English stellt Pokémon-Namen, Typen und Fähigkeiten um.
+Es ist jeweils nur die ausgewählte Sprache sichtbar. Alphabetisch sortiert
+wird nach dem Pokémon-Namen in dieser Sprache. Eigene Kommentare werden
+unverändert übernommen und nicht automatisch übersetzt.
+
+EINORDNEN UND KOMMENTIEREN
+- Ein Pokémon aus dem Katalog ins Tier ziehen oder anklicken.
+- Im Dialog eine Fähigkeit auswählen, falls nur diese Variante gemeint ist.
+  „Allgemein“ steht für einen Eintrag ohne bestimmte Fähigkeit.
+- Tier wählen, optional Kommentar schreiben, „Eintrag speichern“ anklicken.
+- Einen Eintrag in der Liste anklicken, um Tier, Fähigkeit oder Kommentar
+  zu ändern. Kommentare dürfen bis zu 240 Zeichen lang sein.
+- „Weitere Fähigkeits-Variante anlegen“ erstellt einen separaten Eintrag.
+  So können Ditto allgemein und Ditto mit Doppelgänger in verschiedenen
+  Tiers stehen; ebenso Lohgock allgemein und Lohgock mit Temposchub.
+- Jede Kombination aus Pokémon/Form und Fähigkeit darf einmal vorkommen.
+  Vorhandene Einträge werden nicht stillschweigend überschrieben.
+- Beispiel: Ninjatom → Banned, Kommentar „Terakristallisiert“.
+
+SPEICHERN UND WEITERGEBEN
+- „Datei sichern“ lädt die bearbeitbare Tierliste als JSON herunter.
+  Darin stehen Tiers, Fähigkeiten, Kommentare, Farben und die gewählte Sprache.
+- „Datei öffnen“ lädt die Liste. Auch Dateien aus Version 1 und 2 funktionieren.
+- Zum Teilen des Tools diese ZIP oder HTML und tierlist.js weitergeben.
+- Zum Teilen einer ausgefüllten Liste zusätzlich ihre JSON-Datei weitergeben.
+  Die HTML-Datei enthält keine persönlichen Einordnungen.
+- Für Discord das gewünschte Tier als PNG exportieren und das Bild hochladen.
+
+HINWEISE
+Die automatische Speicherung gehört zum jeweiligen Browser und Gerät.
+Bei lokal geöffneten HTML-Dateien hängt sie von den Browser-Einstellungen
+ab; beim Verschieben/Umbenennen der HTML-Datei kann eine andere Speicherung
+verwendet werden. Deshalb wichtige Listen zusätzlich als JSON sichern.
+
+Pokémon-Namen, Formen, Typen und Fähigkeiten kommen aus PokéAPI-Daten auf
+GitHub. Sprites werden ebenfalls von GitHub geladen. Offline oder bei einer
+Sperre von raw.githubusercontent.com sind Katalog und Export eingeschränkt.
+Es wird kein Kontozugang benötigt; deine Einordnungen werden lokal bearbeitet.
+
+Sehr große Listen mit langen Kommentaren können die PNG-Größengrenzen des
+Browsers erreichen. In diesem Fall die Tiers einzeln exportieren.
+
+Daten und Sprites: https://pokeapi.co/ · https://github.com/PokeAPI
+Pokémon © Nintendo / Creatures / GAME FREAK.
