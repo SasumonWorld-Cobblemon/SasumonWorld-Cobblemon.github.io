@@ -1358,7 +1358,7 @@ window.SASUMON_TIERLIST = {
     },
     {
       "title": "Singles Tierlist",
-      "language": "de",
+      "language": "en",
       "entries": [
         {
           "pokemonId": 10190,
@@ -2438,6 +2438,12 @@ window.SASUMON_TIERLIST = {
           "pokemonId": 10044,
           "abilityId": null,
           "tier": "S",
+          "comment": ""
+        },
+        {
+          "pokemonId": 956,
+          "abilityId": null,
+          "tier": "B",
           "comment": ""
         }
       ],

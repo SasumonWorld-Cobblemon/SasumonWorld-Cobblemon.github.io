@@ -1,4 +1,4 @@
-SASUMON TIERSTUDIO – DOWNLOAD-VERSION 5.3
+SASUMON TIERSTUDIO – DOWNLOAD-VERSION 5.4 (NEU AUF BASIS VON 5.3)
 
 STARTEN – OHNE PYTHON ODER WEBSERVER
 1. ZIP vollständig in einen Ordner entpacken.
@@ -22,6 +22,18 @@ DATEN LADEN UND SPEICHERN
 - Auf GitHub Pages beide Dateien in denselben Ordner hochladen. Änderungen
   werden dort erst durch Ersetzen/Hochladen der tierlist.js für andere sichtbar.
   Falls ein alter Stand angezeigt wird, mit Strg+F5 neu laden.
+
+NEU IN VERSION 5.4
+- Diese Version baut direkt auf V5.3 auf und enthält keinen Teamcheck.
+- Jeder Tierkopf bietet einen eigenen Typfilter, einschließlich Untiert.
+  Zweittypen zählen ebenfalls. „Alle Typen“ setzt den jeweiligen Filter zurück.
+  Die Typbezeichnungen wechseln mit der gewählten Sprache.
+- Die Anzeige zeigt bei aktivem Filter die Trefferzahl / gesamte Einträge.
+- Filter verändern keine Einordnungen. PNGs exportieren das vollständige
+  gewählte Tier; „Tier leeren“ leert weiterhin das gesamte Tier.
+- Katalogkarten wachsen mit ihrem Inhalt. Lange Namen und Typbezeichnungen
+  umbrechen, die Tierangabe bleibt vollständig sichtbar. Das gilt auch mit BST.
+- Zum Aktualisieren nur Tierstudio.html ersetzen; die eigene tierlist.js behalten.
 
 NEU IN VERSION 5.3
 - Alle Sonderformen stehen einheitlich hinter dem Artennamen in Klammern,
