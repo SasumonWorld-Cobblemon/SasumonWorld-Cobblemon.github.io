@@ -2,7 +2,7 @@
 window.SASUMON_TIERLIST = {
   "format": "sasumon-tierstudio-collection",
   "version": 1,
-  "activeIndex": 0,
+  "activeIndex": 1,
   "lists": [
     {
       "title": "Doubles Tierlist",
@@ -1317,6 +1317,24 @@ window.SASUMON_TIERLIST = {
           "comment": ""
         },
         {
+          "pokemonId": 10307,
+          "abilityId": null,
+          "tier": "B",
+          "comment": ""
+        },
+        {
+          "pokemonId": 10309,
+          "abilityId": null,
+          "tier": "B",
+          "comment": ""
+        },
+        {
+          "pokemonId": 10310,
+          "abilityId": null,
+          "tier": "C",
+          "comment": ""
+        },
+        {
           "pokemonId": 10325,
           "abilityId": null,
           "tier": "B",
@@ -1339,7 +1357,7 @@ window.SASUMON_TIERLIST = {
       }
     },
     {
-      "title": "Singles Tierliste",
+      "title": "Singles Tierlist",
       "language": "de",
       "entries": [
         {
@@ -2414,6 +2432,12 @@ window.SASUMON_TIERLIST = {
           "pokemonId": 10325,
           "abilityId": null,
           "tier": "A",
+          "comment": ""
+        },
+        {
+          "pokemonId": 10044,
+          "abilityId": null,
+          "tier": "S",
           "comment": ""
         }
       ],
