@@ -2,7 +2,7 @@
 window.SASUMON_TIERLIST = {
   "format": "sasumon-tierstudio-collection",
   "version": 1,
-  "activeIndex": 1,
+  "activeIndex": 0,
   "lists": [
     {
       "title": "Doubles Tierlist",
@@ -1315,6 +1315,18 @@ window.SASUMON_TIERLIST = {
           "abilityId": 150,
           "tier": "Banned",
           "comment": ""
+        },
+        {
+          "pokemonId": 10325,
+          "abilityId": null,
+          "tier": "B",
+          "comment": ""
+        },
+        {
+          "pokemonId": 10316,
+          "abilityId": null,
+          "tier": "B",
+          "comment": ""
         }
       ],
       "colors": {
@@ -2395,13 +2407,13 @@ window.SASUMON_TIERLIST = {
         {
           "pokemonId": 10316,
           "abilityId": null,
-          "tier": "Banned",
+          "tier": "B",
           "comment": ""
         },
         {
           "pokemonId": 10325,
           "abilityId": null,
-          "tier": "Banned",
+          "tier": "A",
           "comment": ""
         }
       ],
