@@ -1,8 +1,8 @@
-// Sasumon Tierstudio V5.3 – gespeicherte Tierlisten
+// Sasumon Tierstudio V5.4 – gespeicherte Tierlisten
 window.SASUMON_TIERLIST = {
   "format": "sasumon-tierstudio-collection",
   "version": 1,
-  "activeIndex": 1,
+  "activeIndex": 0,
   "lists": [
     {
       "title": "Doubles Tierlist",
@@ -1342,6 +1342,12 @@ window.SASUMON_TIERLIST = {
         },
         {
           "pokemonId": 10316,
+          "abilityId": null,
+          "tier": "B",
+          "comment": ""
+        },
+        {
+          "pokemonId": 901,
           "abilityId": null,
           "tier": "B",
           "comment": ""
