@@ -2,7 +2,7 @@
 window.SASUMON_TIERLIST = {
   "format": "sasumon-tierstudio-collection",
   "version": 1,
-  "activeIndex": 0,
+  "activeIndex": 1,
   "lists": [
     {
       "title": "Doubles Tierlist",
@@ -2450,6 +2450,18 @@ window.SASUMON_TIERLIST = {
           "pokemonId": 956,
           "abilityId": null,
           "tier": "B",
+          "comment": ""
+        },
+        {
+          "pokemonId": 894,
+          "abilityId": null,
+          "tier": "C",
+          "comment": ""
+        },
+        {
+          "pokemonId": 895,
+          "abilityId": null,
+          "tier": "C",
           "comment": ""
         }
       ],
