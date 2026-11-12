@@ -1,4 +1,4 @@
-// Sasumon Tierstudio V5.3 – gespeicherte Tierlisten
+// Sasumon Tierstudio V5.4 – gespeicherte Tierlisten
 window.SASUMON_TIERLIST = {
   "format": "sasumon-tierstudio-collection",
   "version": 1,
@@ -1345,6 +1345,12 @@ window.SASUMON_TIERLIST = {
           "abilityId": null,
           "tier": "B",
           "comment": ""
+        },
+        {
+          "pokemonId": 901,
+          "abilityId": null,
+          "tier": "B",
+          "comment": ""
         }
       ],
       "colors": {
@@ -2444,6 +2450,30 @@ window.SASUMON_TIERLIST = {
           "pokemonId": 956,
           "abilityId": null,
           "tier": "B",
+          "comment": ""
+        },
+        {
+          "pokemonId": 894,
+          "abilityId": null,
+          "tier": "C",
+          "comment": ""
+        },
+        {
+          "pokemonId": 895,
+          "abilityId": null,
+          "tier": "C",
+          "comment": ""
+        },
+        {
+          "pokemonId": 10023,
+          "abilityId": null,
+          "tier": "A",
+          "comment": ""
+        },
+        {
+          "pokemonId": 10022,
+          "abilityId": null,
+          "tier": "A",
           "comment": ""
         }
       ],
